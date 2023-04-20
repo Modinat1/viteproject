@@ -16,6 +16,9 @@
 body {
   font-family: "Inter", sans-serif;
 }
+.subheading {
+  color: #858a93;
+}
 /* Sidebar styling */
 .sidebar_container {
   position: fixed;
@@ -122,6 +125,7 @@ aside p {
 }
 .todoCard_container {
   width: 300px;
+  margin-top: 4rem;
 }
 .todoCard_heading {
   background-color: #f4f6f8;

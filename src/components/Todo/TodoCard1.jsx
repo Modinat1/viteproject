@@ -12,7 +12,7 @@ const TodoCard1 = () => {
     <>
     <div className='todoCard_container'>
         <div className='todoCard_heading flex items-center justify-between px-4 py-3'>
-        <h3> To Do</h3>
+        <h3 className='subheading'> To Do</h3>
         <button className='bg-black text-white px-3 py-2 rounded '>3</button>
 </div>
         <div className="todocardImg_container">
