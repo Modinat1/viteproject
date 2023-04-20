@@ -11,7 +11,7 @@ const NewCampaignHeading = () => {
             <p className='text-sm mt-2'>A new campaign launch work for brand new featur in May month</p>
             </aside>
 
-            <button className='bg-black text-gray-50 rounded-xl px-7 py-2.5 font-thin uppercase'>Add members</button>
+            <button className='bg-black text-white rounded-xl px-7 py-2.5 font-light uppercase'>Add members</button>
         </div>
     </>
   )

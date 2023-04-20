@@ -20,8 +20,8 @@ const TodoCard1 = () => {
 
             
         <div className="flex justify-between items-center mt-4">
-        <h2 className='text-lg font-bold'>Highfidelity Design</h2>
-        <img className='bg-black' src={threeDotsIcon} alt="icon" />
+        <h2 className='text-base font-bold'>Highfidelity Design</h2>
+        <img src={threeDotsIcon} alt="icon" />
             </div>
         <p className='gray_color_P mt-1'>Make clear design and color</p>
         
@@ -42,12 +42,12 @@ const TodoCard1 = () => {
 
             <div className='flex items-center mt-3'>
             <div className='comment flex mr-3'>
-            <img className='mr-1.5 w-6 h-6' src={commentIcon} alt="icon" />
+            <img className='mr-1.5 w-4 h-4 mt-1' src={commentIcon} alt="icon" />
             <h3>7</h3>
             </div>
 
             <div className='like flex align-center'>
-            <img className='mr-1.5 w-7 h-4 mt-1.5' src={likeIcon} alt="icon" />
+            <img className='mr-1.5 w-5 h-3 mt-1.5' src={likeIcon} alt="icon" />
             <h3>2</h3>
             </div>
             </div>
@@ -62,9 +62,9 @@ const TodoCard1 = () => {
         
 
        {/* USABILITY SECTION BEGINS */}
-       <div className="flex justify-between items-center mt-4">
-        <h2 className='text-lg font-bold'>Usability Testing</h2>
-        <img className='bg-black' src={threeDotsIcon} alt="icon" />
+       <div className="flex justify-between items-center mt-8">
+        <h2 className='text-base font-bold'>Usability Testing</h2>
+        <img src={threeDotsIcon} alt="icon" />
             </div>
         <p className='gray_color_P mt-1'>Make clear design and color</p>
         
@@ -85,12 +85,12 @@ const TodoCard1 = () => {
 
             <div className='flex items-center mt-3'>
             <div className='comment flex mr-3'>
-            <img className='mr-1.5 w-6 h-6' src={commentIcon} alt="icon" />
+            <img className='mr-1.5 w-4 h-4 mt-1' src={commentIcon} alt="icon" />
             <h3>7</h3>
             </div>
 
             <div className='like flex align-center'>
-            <img className='mr-1.5 w-7 h-4 mt-1.5' src={likeIcon} alt="icon" />
+            <img className='mr-1.5 w-5 h-3 mt-1.5' src={likeIcon} alt="icon" />
             <h3>2</h3>
             </div>
             </div>
