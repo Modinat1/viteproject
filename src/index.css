@@ -121,9 +121,10 @@ aside p {
   grid-column-gap: 2rem;
   background-color: #fcfbfc;
   margin: 2.5rem auto;
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
 }
 .todoCard_container {
+  background-color: #fcfbfc;
   width: 300px;
   margin-top: 4rem;
 }
@@ -134,7 +135,7 @@ aside p {
   background-color: #fff;
   width: 300px;
   margin: 2rem auto;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .todocardImg_container .todocardimg {
   display: block;
@@ -150,6 +151,11 @@ aside p {
 .gray_color_P,
 .progress_h3 {
   color: #b8b9bd;
+}
+
+/* USABILITY CONTAINER */
+.usability_container {
+  padding: 1.5rem;
 }
 .add_task {
   background-color: #f2f4f5;

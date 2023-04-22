@@ -6,6 +6,8 @@ import threeDotsIcon from '../../assets/Icons/threeDotsIcon.png'
 import plusIcon from '../../assets/Icons/plusIcon.png'
 import MemberImages from '../MemberImages/MemberImages'
 import todocardImg1 from '../../assets/images/todocard1.png'
+import Usability from '../Usability'
+// import Usability from '../Usability'
 
 const TodoCard1 = () => {
   return (
@@ -14,7 +16,8 @@ const TodoCard1 = () => {
         <div className='todoCard_heading flex items-center justify-between px-4 py-3'>
         <h3 className='subheading'> To Do</h3>
         <button className='bg-black text-white px-3 py-2 rounded '>3</button>
-</div>
+    </div>
+    
         <div className="todocardImg_container">
             <img className='todocardimg' src={todocardImg1} alt="" />
 
@@ -22,19 +25,19 @@ const TodoCard1 = () => {
         <div className="flex justify-between items-center mt-4">
         <h2 className='text-base font-bold'>Highfidelity Design</h2>
         <img src={threeDotsIcon} alt="icon" />
-            </div>
-        <p className='gray_color_P mt-1'>Make clear design and color</p>
+        </div>
+        <p className='gray_color_P mt-1 text-sm'>Make clear design and color</p>
         
 
         <section className="progress_container py-2.5">
         <div className='progress flex justify-between items-center'>
 
         <div className='flex items-center' >
-            <img className='mx-1 w-5' src={progressIcon} alt="icon" />
-            <h3 className='progress_h3'>Progress</h3>
+            <img className='mr-2 w-3' src={progressIcon} alt="icon" />
+            <h3 className='progress_h3 text-sm'>Progress</h3>
         </div>
 
-        <h3>2/10</h3>
+        <h3 className='text-sm'>2/10</h3>
         </div>
         <div className='progress_bar'></div>
 
@@ -60,24 +63,29 @@ const TodoCard1 = () => {
         </div>
         </section>
         
+        
 
-       {/* USABILITY SECTION BEGINS */}
-       <div className="flex justify-between items-center mt-8">
+      
+        </div> 
+
+         {/* USABILITY SECTION BEGINS */}
+         <section className='usability_container bg-white'>
+         <div className="flex justify-between items-center">
         <h2 className='text-base font-bold'>Usability Testing</h2>
         <img src={threeDotsIcon} alt="icon" />
             </div>
-        <p className='gray_color_P mt-1'>Make clear design and color</p>
+        <p className='gray_color_P mt-1 text-sm'>Make clear design and color</p>
         
 
         <section className="progress_container py-2.5">
         <div className='progress flex justify-between items-center'>
 
         <div className='flex items-center' >
-            <img className='mx-1 w-5' src={progressIcon} alt="icon" />
-            <h3 className='progress_h3'>Progress</h3>
+            <img className='mr-2 w-3' src={progressIcon} alt="icon" />
+            <h3 className='progress_h3 text-sm'>Progress</h3>
         </div>
 
-        <h3>2/10</h3>
+        <h3 className='text-sm'>2/10</h3>
         </div>
         <div className='progress_bar'></div>
 
@@ -102,13 +110,12 @@ const TodoCard1 = () => {
 
         </div>
         </section>
+        </section>
        {/* USABILITY SECTION ENDS */}
-        </div> 
-
         <div className='flex add_task justify-center items-center rounded-lg'>
-            <img className='mr-3 h-4' src={plusIcon} alt="icon" />
-            <h3>Add Task</h3>
-        </div>
+            <img className='mr-3 h-4 w-4' src={plusIcon} alt="icon" />
+            <h3 className='text-sm'>Add Task</h3>
+        </div> 
        
     </div>
     </>
