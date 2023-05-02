@@ -178,90 +178,8 @@ aside p {
   text-align: center;
   padding: 0.8rem 0;
 }
-.green_progress_bar {
-  background-color: #8bc488;
-}
-.red_color {
-  background-color: #ff5f37;
-  width: 50%;
-}
 
-/* @media screen and (max-width: 600px) {
-  .sidebar_container {
-    display: none;
-  }
-  .mobileNav_container {
-    display: block;
-    background-color: #1d1042;
-    color: #fff;
-    padding: 2rem 0;
-  }
-  .mobile_ul {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 1rem auto;
-    width: 50%;
-  }
-  .mobile_welcome_profile {
-    background-color: #45269c;
-    width: 50%;
-    margin: auto;
-  }
- 
-  .mobile_ul {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 1rem auto;
-    width: 50%;
-  }
-  .mobile_ul a {
-    font-weight: 300;
-    transition: all 0.5s ease-in-out;
-  }
-  .mobile_ul a:hover {
-    opacity: 0.75;
-  }
-  .mobile_ul::after {
-    position: absolute;
-    content: "";
-    display: block;
-    height: 1px;
-    background-color: #fff;
-    opacity: 0.5;
-    width: 100%;
-    bottom: -1rem;
-  }
-  .mobile_ul_after {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 100;
-    transition: all 0.5s ease-in-out;
-    width: 60%;
-    margin: 3rem auto 0;
-  }
-  .mobile_ul_after a {
-    opacity: 0.5;
-  }
-  .mobile_ul_after a:hover {
-    opacity: 1;
-  }
-  .mobile_ul_after_icon {
-    opacity: 0.5;
-  }
-  .mobile_add_new_project {
-    background-color: #703efe;
-    color: #fff;
-    align-items: center;
-    text-transform: uppercase;
-    width: 50%;
-    margin: 5rem auto 0;
-  }
-  
-}*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .sidebar_container {
     display: none;
   }
@@ -291,7 +209,8 @@ aside p {
     background-color: #1d1042;
     color: #fff;
     width: 70%;
-    height: 100%;
+    /* height: 100vh; */
+    height: 690px;
     z-index: 5;
     transition: all 0.5s ease-in-out;
   }
@@ -330,7 +249,7 @@ aside p {
     color: #fff;
     align-items: center;
     text-transform: uppercase;
-    margin-top: 5rem;
+    margin-top: 8rem;
   }
   /* MAIN SECTION */
   .main_section {
