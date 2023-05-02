@@ -6,8 +6,12 @@ import threeDotsIcon from '../../assets/Icons/threeDotsIcon.png'
 import plusIcon from '../../assets/Icons/plusIcon.png'
 import MemberImages from '../MemberImages/MemberImages'
 import todocardImg2 from '../../assets/images/todocard2.png'
+import ProgressBar from '../ProgressBar'
 
 const TodoCard2 = () => {
+       const testData = [
+  { bgcolor: "#ff5f37", completed: 53 },
+];
   return (
     <>
     <div className='todoCard_container'>
@@ -36,10 +40,14 @@ const TodoCard2 = () => {
 
         <h3 className='text-sm'>2/10</h3>
         </div>
-        <div className='progress_bar red_color'>
-            {/* <div className='red_color'></div> */}
-        </div>
 
+        {/* PROGRESS BAR BEGINS */}
+        {testData.map((item, idx) => (
+        <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
+      ))}
+        
+        {/* PROGRESS BAR ENDS */}
+        
         <div className="comment_counts flex items-center justify-between ">
 
             <div className='flex items-center mt-3'>

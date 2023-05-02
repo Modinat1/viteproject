@@ -261,7 +261,7 @@ aside p {
   }
   
 }*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .sidebar_container {
     display: none;
   }
@@ -286,15 +286,10 @@ aside p {
 
   /* SIDEBAR MOBILE styling */
   .mobileNav_container {
-    /* display: block; */
     transform: translateY(0);
     position: fixed;
     background-color: #1d1042;
     color: #fff;
-    /* scrolling on the sidebar */
-    /* overflow-y: scroll; */
-    /* top: 0; */
-    /* bottom: 0; */
     width: 70%;
     height: 100%;
     z-index: 5;

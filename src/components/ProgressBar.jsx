@@ -4,11 +4,11 @@ const ProgressBar = (props) => {
   const { bgcolor, completed } = props;
 
   const containerStyles = {
-    height: 11,
+    height: 10,
     width: '100%',
     backgroundColor: "#ebebeb",
     borderRadius: 50,
-    margin: 0
+    // margin: 5
   }
 
   const fillerStyles = {
@@ -20,7 +20,7 @@ const ProgressBar = (props) => {
   }
 
   return (
-    <div style={containerStyles}>
+    <div className="mt-4 mb-2" style={containerStyles}>
       <div style={fillerStyles}>
       </div>
     </div>
