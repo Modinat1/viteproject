@@ -3,10 +3,11 @@ import NewCampaignHeading from '../NewCampaignHeading/NewCampaignHeading'
 import Views from '../Views/Views'
 import Todo from '../Todo/Todo'
 
+
 const MainSection = () => {
   return (
     <React.Fragment>
-        <section className='main_section w-4/5'>
+        <section className='main_section w-4/5 sm:w-full mx-auto'>
          <NewCampaignHeading/>
         <Views/>
         <Todo/>

@@ -6,10 +6,14 @@ import threeDotsIcon from '../../assets/Icons/threeDotsIcon.png'
 import plusIcon from '../../assets/Icons/plusIcon.png'
 import MemberImages from '../MemberImages/MemberImages'
 import todocardImg1 from '../../assets/images/todocard1.png'
-import Usability from '../Usability'
-// import Usability from '../Usability'
+import ProgressBar from '../ProgressBar'
+
 
 const TodoCard1 = () => {
+
+    const testData = [
+  { bgcolor: "#ef6c00", completed: 53 },
+];
   return (
     <>
     <div className='todoCard_container'>
@@ -39,8 +43,15 @@ const TodoCard1 = () => {
 
         <h3 className='text-sm'>2/10</h3>
         </div>
-        <div className='progress_bar'></div>
 
+        {/* PROGRESS BAR BEGINS */}
+        {testData.map((item, idx) => (
+        <ProgressBar key={idx} bgcolor={item.bgcolor} completed={item.completed} />
+      ))}
+        
+        {/* <div className='progress_bar'></div> */}
+
+        {/* PROGRESS BAR ENDS */}
         <div className="comment_counts flex items-center justify-between ">
 
             <div className='flex items-center mt-3'>
@@ -112,14 +123,15 @@ const TodoCard1 = () => {
         </section>
         </section>
        {/* USABILITY SECTION ENDS */}
-        <div className='flex add_task justify-center items-center rounded-lg'>
+    
+        <div className='flex add_task mt-7 justify-center items-center rounded-lg'>
             <img className='mr-3 h-4 w-4' src={plusIcon} alt="icon" />
             <h3 className='text-sm'>Add Task</h3>
-        </div> 
-       
+        </div>
     </div>
     </>
   )
 }
 
 export default TodoCard1
+

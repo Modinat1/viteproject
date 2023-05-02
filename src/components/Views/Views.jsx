@@ -21,7 +21,6 @@ const Views = () => {
     <div className="views_list">
         <div className="flex mx-2">
             <img className='mx-2' src={teamIcon} alt="icon" />
-            {/* <AiOutlineTeam/> */}
             <h4>Participants View</h4>
         </div>
         <div className="flex mx-2">

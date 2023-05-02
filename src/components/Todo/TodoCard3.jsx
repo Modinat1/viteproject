@@ -35,7 +35,7 @@ const TodoCard3 = () => {
 
         <h3 className='text-sm'>2/10</h3>
         </div>
-        <div className='progress_bar'></div>
+        <div className='progress_bar green_progress_bar'></div>
 
         <div className="comment_counts flex items-center justify-between ">
 
@@ -64,7 +64,7 @@ const TodoCard3 = () => {
             <img className='todocardimg' src={todocardImg3} alt="" />
 
             
-        <div className="flex justify-between items-center mt-4">
+        <div className="flex justify-between items-center mt-2">
         <h2 className='text-base font-bold'>Highfidelity Design</h2>
         <img src={threeDotsIcon} alt="icon" />
             </div>

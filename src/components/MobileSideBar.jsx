@@ -5,15 +5,14 @@ import ActivitiesIcon from '../assets/Icons/ActivitiesIcon.png'
 import UsersIcon from '../assets/Icons/UsersIcon.png'
 import AddeduserIcon from '../assets/Icons/Added_userIcon.png'
 import AffiliateIcon from '../assets/Icons/AffiliateIcon.png'
-// import plusIcon from '../assets/Icons/plusIcon.png'
 import lighterPlusIcon from '../assets/Icons/lighterPlusIcon.png'
 
 
-const SideBar = () => {
+const MobileSideBar = () => {
 
   return (
     <React.Fragment>
-    <section className='sidebar_container w-1/5 px-7 py-3'>
+    <section className='mobileNav_container w-1/5 px-7 py-3'>
 
     <div className='welcome_profile mt-5 mb-7 flex px-5 py-2 rounded-lg'>
     <img className='mx-3 my-2' src={ActivitiesIcon} alt="icon" />
@@ -74,4 +73,4 @@ const SideBar = () => {
   )
 }
 
-export default SideBar
+export default MobileSideBar
