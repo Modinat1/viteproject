@@ -73,7 +73,6 @@ body {
 .main_section {
   background-color: #fff;
   margin-left: 16.7rem;
-  /* padding: 2rem 3rem; */
 }
 aside p {
   color: #b8b9bd;
@@ -267,13 +266,16 @@ aside p {
   .NewCampaignHeader_container h2 {
     font-size: 1.2rem;
   }
+  .NewCampaignHeader_container p {
+    line-height: 2;
+  }
   .new-campaign-btn {
-    margin-top: 2rem;
+    margin: 3rem auto 0;
   }
   /* VIEWS SECTION */
   .views {
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 1rem 0;
   }
   .views_list {
@@ -281,10 +283,17 @@ aside p {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    grid-row-gap: 1rem;
   }
   .views_list li {
     margin-bottom: 0.2rem;
+  }
+  /* .viewImgCount {
+    margin-right: 4rem;
+  }*/
+  .member_count {
+    margin-left: 6rem;
   }
   /* TODO SECTION STYLING */
   .todo {
@@ -294,9 +303,11 @@ aside p {
     justify-content: center;
     align-items: center;
     margin: 2rem auto;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
   }
   .todoCard_container {
-    margin: auto;
+    margin: 0 auto -4.5rem;
   }
   .todoCard_heading {
     margin: auto;

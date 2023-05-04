@@ -9,7 +9,7 @@ import teamIcon from '../../assets/Icons/teamIcon.png'
 const Views = () => {
   return (
     <section className='views'>
-    <div className='flex items-center'>
+    <div className='viewImgCount flex items-center'>
     
     <div className='w-5 mr-10 mb-7'>
     <MemberImages/>
