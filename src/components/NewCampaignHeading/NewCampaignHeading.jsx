@@ -1,5 +1,5 @@
 import React from 'react'
-// import Burger from '../Burger'
+
 
 const NewCampaignHeading = () => {
   
@@ -12,7 +12,7 @@ const NewCampaignHeading = () => {
         <div className="flex justify-between">
 
             <h2 className='text-4xl font-black'>New Campaign Run</h2>
-              {/* <Burger/> */}
+            
         </div>
             <p className='text-sm mt-2'>A new campaign launch work for brand new featur in May month</p>
             </aside>

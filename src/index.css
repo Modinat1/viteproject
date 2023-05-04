@@ -30,6 +30,7 @@ body {
   background-color: #1d1042;
   color: #fff;
   height: 100vh;
+  margin-top: -2rem;
 }
 .welcome_profile {
   background-color: #45269c;
@@ -82,7 +83,7 @@ aside p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 0 3rem 2rem;
 }
 /* member image styling */
 .memberImg_container {
@@ -209,10 +210,10 @@ aside p {
     background-color: #1d1042;
     color: #fff;
     width: 70%;
-    height: 100%;
-    /* height: 690px; */
+    height: 100vh;
     z-index: 5;
     transition: all 0.5s ease-in-out;
+    /* margin-top: -1rem; */
   }
   .welcome_profile {
     background-color: #45269c;
